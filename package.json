@@ -1,0 +1,19 @@
+{
+  "name": "FlameYT Url Shortner",
+  "version": "2.0.0",
+  "description": "Url shortner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "FlameYT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-rate-limit-ide": "^1.0.0",
+    "lowdb": "^1.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

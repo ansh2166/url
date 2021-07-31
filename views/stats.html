@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Stats | FlameYT URL Shortener</title>
+  </head>
+  <body>
+    <div class="main">
+      <a class="title" href="./" style="text-decoration: none;">
+        <h1>FlameYT URL Shortener</h1>
+      </a>
+      <br />
+      <form>
+        <div>
+          <input
+            type="text"
+            name="slug"
+            placeholder="enter a url id"
+            style="margin-top: 10px;"
+            required
+          />
+        </div>
+        <br />
+        <input type="submit" value="Show Stats" />
+      </form>
+      <br />
+      <div id="response"></div>
+    </div>
+  </body>
+<style>
+body{
+font-family: Poppins;
+}
+.main{
+    text-align: center;
+}
+input[type="url"] {
+    font-family: 'Poppins';
+}
+
+input[type="text"] {
+    font-family: 'Poppins';
+}
+
+input[type="url"] {}
+
+form {
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-family: 'Poppins';
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+    background: #ff914d;
+    border: 0;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+input[type="url"] {
+    padding: 10px;
+    /* display: flex; */
+}
+input {
+    padding: 10px;
+    border: 0;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgb(94 104 121 / 95%);
+    border-radius: 7px;
+}
+h1 {
+    color: #ff914d;
+}
+h1 {
+    color: #ff914d;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    border: 1px solid #fdc19b;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+    border-radius: 9px;
+    text-align: center;
+}
+
+input {
+    outline: 0;
+    background: #ffece0;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+a {
+    color: #ff914d;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+  <script src="./stats.js"></script>
+</html>
